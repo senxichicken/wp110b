@@ -23,7 +23,7 @@ function render() {
     `
   })
 
-  listContent.innerHTML = htmlStr
+  list.innerHTML = htmlStr
 }
 
 //const r1 = new RenderFeature()
@@ -33,14 +33,17 @@ addedBtn.addEventListener("click", function () {
     content: content.value,
     date: date.value,
     time: time.value
-  })
+  },false)
 
   render()
   
 })
 
 deletedBtn.addEventListener("click",function () {
-  listContent.shift()
-
-  render()
+  listContent.shift({
+    content: content.value,
+    date: date.value,
+    time: time.value
+  },false)
+render()
 })
