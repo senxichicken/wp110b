@@ -1,3 +1,7 @@
-本程式參考自https://github.com/scps960740/JS-crash-course-2021-bruceFE 布魯斯工程師
+本程式參考自https://www.youtube.com/watch?v=1pYtVwIAvhY 布魯斯前端工程師
 
-[Youtube](https://www.youtube.com/watch?v=1pYtVwIAvhY)
+原本是想以自傳方向去撰寫，但自傳本身實用性可能不高，就改往比較實用的功能來發想
+
+最終找到行事曆這種日常能夠用到的程式來編寫。
+
+除了平常的css與html外，也試著用去使用一些事件來幫助網頁進行互動
